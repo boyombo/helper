@@ -28,12 +28,11 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'bayokrapht@gmail.com'
-EMAIL_HOST_PASSWORD = 'b4y00p4d3y1'
-DEFAULT_FROM_EMAIL = 'bayokrapht@gmail.com'
-DEFAULT_TO_EMAIL = 'bayokrapht@gmail.com'
+EMAIL_HOST = 'smtp.webfaction.com'
+EMAIL_HOST_USER = 'roundtableng'
+EMAIL_HOST_PASSWORD = 'qrapht'
+DEFAULT_FROM_EMAIL = 'info@roundtableng.org'
+SERVER_EMAIL = 'info@roundtableng.org'
 
 
 # Application definition
