@@ -19,6 +19,7 @@ from django.views.generic.base import RedirectView
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'helpdesk/tickets/submit/$', 'tickets.views.create', name='create'),
     url(r'helpdesk/', include('helpdesk.urls'), name='helpdesk'),
     url(r'^$', RedirectView.as_view(url='helpdesk'), name='home'),
 ]

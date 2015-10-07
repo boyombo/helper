@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'markdown_deux',
     'bootstrapform',
     'helpdesk',
+    'tickets',
 )
 
 MIDDLEWARE_CLASSES = (
