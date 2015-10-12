@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django.contrib.sites',
     'markdown_deux',
     'bootstrapform',
     'helpdesk',
@@ -63,6 +64,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'helper.urls'
+
+SITE_ID = 1
 
 TEMPLATES = [
     {
